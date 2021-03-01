@@ -22,20 +22,41 @@ body{
 }
 
 .item{
+    padding: 1% 3% 1% ;
     width: 100%;
     height: 25%;
-    position: relative;
+
+   
 }
+
+.section-1::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
 .section-1{
     width: 24%;
     height: 100%;
+    float:left ; 
+    background-color: white;
+    margin-left: 1%;
+    border-radius: 10px;
+}
+     
+h4{
     position: relative;
-    left: 0;
-    display: inline-block;
-    margin-left: 4px;
+    bottom: 70%;
+    text-align: center;
+    
 }
 
-
+.section-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 /* uses class */
 
 .border{
