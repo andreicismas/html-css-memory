@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ADD8E6;
+}
+
+.title-game{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family:Akaya Kanadaka, cursive ; 
+}
+
+.title-game:first-child{ 
+    color: white;
+}
+
+
+.container{
+    width: 60%;
+    height: 700px;
+    margin: auto;
+}
+
+.item{
+    padding: 1% 3% 1% ;
+    height: 33%;
+}
+
+.section-1::after{
+    content: "";
+    display: table;
+    clear: both;  
+}
+
+.section-1{
+    width: 24%;
+    height: 100%;
+    float:left ; 
+    background-color: white;
+    margin-left: 1%;
+    border-radius: 10px;
+    position: relative;
+}
+     
+.item-text{  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    bottom: 2%;
+    text-align: center;  
+}
+
+.section-img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.discover{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.discover:hover{
+    display: none;
+} 
+
+.end-page{
+    text-align: center; 
+    font-size: 50px;
+    font-family:Akaya Kanadaka, cursive ; 
+}
+
+span{
+    border-radius: 10px;
+    width: 56%; 
+    background-color: gold;
+    display: inline-block;
+    position: absolute;
+    right: 21.7%; 
+}
+
+span:hover{
+    display: none;
+}
+
+.mee-to{ 
+    font-size: 20px;
+    display: inline-block;
+    font-family:Akaya Kanadaka, cur 
+}
+
+.hover-img{
+    display: inline-block;
+}
+
+
+
+.text-ballon{
+    color: #E31C86;
+}
+
+.text-bicycle{
+    color: blue;
+}
+
+.text-cruise{
+    color: brown;
+}
+
+.text-submarine{
+    color: cyan;
+}
+
+.text-tractor{
+    color: darkgreen;
+}
+
+.text-roulotte{
+    color: darkorange;
+}
