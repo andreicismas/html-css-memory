@@ -47,6 +47,40 @@ body{
     border-radius: 10px;
     position: relative;
 }
+
+.balloon,
+.bici,
+.tractor,
+.roulotte,
+.cruise,
+.submarine{
+    background-image: url(img/noun_air_balloon_3134741.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+.balloon{
+    background-image: url(img/noun_air_balloon_3134741.png);
+}
+.bici{
+    background-image: url(img/noun_Bicycle_3134821.png);
+}
+.tractor{
+    background-image: url(img/noun_Tractor_3134797.png);
+}
+.roulotte{
+    background-image: url(img/noun_Tram_3134750.png);
+}
+.cruise{
+    background-image: url(img/noun_Cruise_Ship_3134824.png);
+}
+.submarine{
+    background-image: url(img/noun_Submarine_3134738.png);
+}
+
      
 .item-text{  
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -55,13 +89,13 @@ body{
     text-align: center;  
 }
 
-.section-img{
+ .section-img{
     width: 70%;
     height: 70%;
     margin-left: 15%;
     object-fit: contain;
     display: inline-block;
-}
+} 
 
 .discover{
     width: 100%;
