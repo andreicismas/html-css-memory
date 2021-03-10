@@ -55,7 +55,7 @@ body{
 .cruise,
 .submarine{
     background-image: url(img/noun_air_balloon_3134741.png);
-    background-size: 80%;
+    background-size: 65%;
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -86,16 +86,19 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     bottom: 2%;
-    text-align: center;  
+    text-align: center; 
+ 
+    
 }
 
- .section-img{
+
+ /* .section-img{
     width: 70%;
     height: 70%;
     margin-left: 15%;
     object-fit: contain;
     display: inline-block;
-} 
+}  */
 
 .discover{
     width: 100%;
